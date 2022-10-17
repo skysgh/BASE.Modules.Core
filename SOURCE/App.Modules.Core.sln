@@ -15,6 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31.App.Modules.Core.Applica
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.App.Modules.Core.Presentation.Web", "App.Modules.Core.Presentation.Web\21.App.Modules.Core.Presentation.Web.csproj", "{EB3258CE-CEA2-4514-A565-25C08F32D237}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ENVIRONMENT", "ENVIRONMENT", "{D4E754B7-AC7A-46AD-8FB3-1BD0D74978CE}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOURCE", "SOURCE", "{97219783-7DE9-4685-8DF9-033B43C537AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +55,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D79F8615-45F8-4212-97B7-CA4441CDF55B} = {97219783-7DE9-4685-8DF9-033B43C537AF}
+		{A00A1AAF-7C33-44CE-B80A-EC3D9FBB2A25} = {97219783-7DE9-4685-8DF9-033B43C537AF}
+		{D0C542EE-A071-4C7F-BB90-259E5966CCC5} = {97219783-7DE9-4685-8DF9-033B43C537AF}
+		{C04FC060-0D79-490A-9F00-225D0C3A9343} = {97219783-7DE9-4685-8DF9-033B43C537AF}
+		{3B505AD9-25E6-44D3-8722-CA49B6409BF1} = {97219783-7DE9-4685-8DF9-033B43C537AF}
+		{EB3258CE-CEA2-4514-A565-25C08F32D237} = {97219783-7DE9-4685-8DF9-033B43C537AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F736C69B-CD54-4954-8B30-38673132E8BB}
