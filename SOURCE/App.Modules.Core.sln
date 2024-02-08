@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41.App.Modules.Core.Domain"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "51.App.Modules.Core.Infrastructure", "App.Modules.Core.Infrastructure\51.App.Modules.Core.Infrastructure.csproj", "{D0C542EE-A071-4C7F-BB90-259E5966CCC5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "52.App.Modules.Core.Infrastructure.Data.Storage.Db.EF", "App.Modules.Core.Infrastructure.Storage.Db.EF\52.App.Modules.Core.Infrastructure.Data.Storage.Db.EF.csproj", "{C04FC060-0D79-490A-9F00-225D0C3A9343}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "52.App.Modules.Core.Infrastructure.Data.Storage.Db.EF", "App.Modules.Core.Infrastructure.Data.Storage.Db.EF\52.App.Modules.Core.Infrastructure.Data.Storage.Db.EF.csproj", "{C04FC060-0D79-490A-9F00-225D0C3A9343}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31.App.Modules.Core.Application", "App.Modules.Core.Application\31.App.Modules.Core.Application.csproj", "{3B505AD9-25E6-44D3-8722-CA49B6409BF1}"
 EndProject

@@ -1,6 +1,6 @@
 ﻿namespace App.Modules.Core.Shared.Attributes
 {
-    using App.Base.Shared.Models.Entities;
+    using App.Modules.Core.Shared.Models.TODO.Entities.Enums;
 
     /// <summary>
     /// Attribute to attach to Models to *Hint* (it depends on additional factors too, but it's a start) 
