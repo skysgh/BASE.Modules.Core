@@ -1,4 +1,4 @@
-﻿namespace App.Modules.Sys.Infrastructure.Services.Implementations
+﻿namespace App.Modules.Base.Infrastructure.Services.Implementations
 {
     /// <summary>
     /// An implementation of the 

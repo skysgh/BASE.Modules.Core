@@ -1,6 +1,6 @@
-﻿using App.Modules.Sys.Substrate.tmp.Models.Messages._TOREVIEW.Entities.Enums;
+﻿using App.Modules.Base.Substrate.tmp.Models.Messages._TOREVIEW.Entities.Enums;
 
-namespace App.Modules.Sys.Interface.Models._TOPARSE.V0100
+namespace App.Modules.Base.Interface.Models._TOPARSE.V0100
 {
     /// <summary>
     /// 

@@ -1,4 +1,4 @@
-﻿namespace App.Modules.Sys.Interface.Models._TOPARSE.V0100
+﻿namespace App.Modules.Base.Interface.Models._TOPARSE.V0100
 {
     /// <summary>
     /// API DTO for system 

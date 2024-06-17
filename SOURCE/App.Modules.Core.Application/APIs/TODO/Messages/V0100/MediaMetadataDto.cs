@@ -1,9 +1,9 @@
 ﻿namespace App.Modules.TmpSys.Application.APIs.TODO.Messages.V0100
 {
     using System;
-    using App.Modules.Sys.Substrate.Models.Contracts;
-    using App.Modules.Sys.Shared.Models.TODO.Entities;
-    using App.Modules.Sys.Shared.Models.TODO.Entities.TenancySpecific;
+    using App.Modules.Base.Substrate.Models.Contracts;
+    using App.Modules.Base.Shared.Models.TODO.Entities;
+    using App.Modules.Base.Shared.Models.TODO.Entities.TenancySpecific;
 
     /// <summary>
     /// API DTO for system 

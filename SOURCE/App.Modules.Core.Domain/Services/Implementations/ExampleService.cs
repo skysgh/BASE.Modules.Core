@@ -1,6 +1,6 @@
-﻿using App.Modules.Sys.Domain.Services;
+﻿using App.Modules.Base.Domain.Services;
 
-namespace App.Modules.Sys.Domain.Services.Implementations
+namespace App.Modules.Base.Domain.Services.Implementations
 {
     /// <summary>
     /// An implementation of the 

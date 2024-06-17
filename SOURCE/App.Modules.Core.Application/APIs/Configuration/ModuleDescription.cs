@@ -1,4 +1,4 @@
-﻿using App.Modules.Sys.Substrate.Models.Contracts;
+﻿using App.Modules.Base.Substrate.Models.Contracts;
 
 namespace App.Modules.TmpSys.Application.APIs.Configuration
 {

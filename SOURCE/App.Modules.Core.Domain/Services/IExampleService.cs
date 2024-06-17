@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.Modules.Sys.Domain.Services
+namespace App.Modules.Base.Domain.Services
 {
     /// <summary>
     /// Interface for an example interface

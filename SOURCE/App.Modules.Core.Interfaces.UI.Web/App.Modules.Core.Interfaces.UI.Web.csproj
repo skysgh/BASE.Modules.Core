@@ -50,7 +50,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\BASE\SOURCE\App.Modules.Sys.Interfaces.UI.Web\App.Modules.Sys.Interfaces.UI.Web.csproj" />
+    <ProjectReference Include="..\..\..\BASE\SOURCE\App.Modules.Base.Interfaces.UI.Web\App.Modules.Base.Interfaces.UI.Web.csproj" />
 	  <ProjectReference Include="..\App.Modules.Core.Interfaces.Models\App.Modules.Core.Interfaces.Models.csproj" />
 	  <ProjectReference Include="..\App.Modules.Core.Application\App.Modules.Core.Application.csproj" />
   </ItemGroup>

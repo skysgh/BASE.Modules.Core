@@ -40,9 +40,12 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\BASE.LIB\SOURCE\App.Modules.Sys.Infrastructure.Data.EF\App.Modules.Sys.Infrastructure.Data.EF.csproj" />
-    <ProjectReference Include="..\..\..\BASE.LIB\SOURCE\App.Modules.Sys.Substrate.Contracts\App.Modules.Sys.Substrate.Contracts.csproj" />
-    <ProjectReference Include="..\..\..\BASE.LIB\SOURCE\App.Modules.Sys.Substrate\App.Modules.Sys.Substrate.csproj" />
+    <ProjectReference Include="..\..\..\BASE.Modules.Base\SOURCE\App.Modules.Base.Infrastructure.Data.EF\App.Modules.Base.Infrastructure.Data.EF.csproj" />
+    <ProjectReference Include="..\..\..\BASE.Modules.Base\SOURCE\App.Modules.Base.Substrate.Contracts\App.Modules.Base.Substrate.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\BASE.Modules.Base\SOURCE\App.Modules.Base.Substrate\App.Modules.Base.Substrate.csproj" />
+
+	  <ProjectReference Include="..\App.Modules.Core.Infrastructure\App.Modules.Core.Infrastructure.csproj" />
+	  <ProjectReference Include="..\App.Modules.Core.Substrate\App.Modules.Core.Substrate.csproj" />
   </ItemGroup>
 
 </Project>

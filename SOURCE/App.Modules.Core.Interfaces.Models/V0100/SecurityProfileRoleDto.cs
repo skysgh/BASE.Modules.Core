@@ -1,10 +1,10 @@
-﻿namespace App.Modules.Sys.Interface.Models._TOPARSE.V0100
+﻿namespace App.Modules.Base.Interface.Models._TOPARSE.V0100
 {
     using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
-    using App.Modules.Sys.Substrate.Models.Contracts;
-    using App.Modules.Sys.Substrate.tmp.Factories;
+    using App.Modules.Base.Substrate.Models.Contracts;
+    using App.Modules.Base.Substrate.tmp.Factories;
 
     /// <summary>
     /// DTO for <c>SecurityProfileRole</c>

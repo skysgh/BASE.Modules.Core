@@ -1,8 +1,8 @@
-﻿namespace App.Modules.Sys.Interface.Models._TOPARSE.V0100
+﻿namespace App.Modules.Base.Interface.Models._TOPARSE.V0100
 {
     using System;
-    using App.Modules.Sys.Substrate.tmp.Models.Messages._TOREVIEW.Entities;
-    using App.Modules.Sys.Substrate.tmp.Models.Messages._TOREVIEW.Entities.Enums;
+    using App.Modules.Base.Substrate.tmp.Models.Messages._TOREVIEW.Entities;
+    using App.Modules.Base.Substrate.tmp.Models.Messages._TOREVIEW.Entities.Enums;
 
     /// <summary>
     /// API DTO for system 

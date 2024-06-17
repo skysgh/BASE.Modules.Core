@@ -1,8 +1,8 @@
-﻿namespace App.Modules.Sys.Interface.Models._TOPARSE.V0100
+﻿namespace App.Modules.Base.Interface.Models._TOPARSE.V0100
 {
     using System;
-    using App.Modules.Sys.Substrate.Models.Contracts;
-    using App.Modules.Sys.Substrate.Models.Contracts.Enums;
+    using App.Modules.Base.Substrate.Models.Contracts;
+    using App.Modules.Base.Substrate.Models.Contracts.Enums;
 
     /// <summary>
     /// An API DTO

@@ -1,14 +1,14 @@
-﻿using App.Modules.Sys.Infrastructure.Factories;
-using App.Modules.Sys.Infrastructure.Services;
-using App.Modules.Sys.Infrastructure.Storage.Db.EF.DbContexts.Implementations.Base;
-using App.Modules.Sys.Infrastructure.Storage.Db.EF.Schema.Management;
-using App.Modules.Sys.Shared.Constants;
+﻿using App.Modules.Base.Infrastructure.Factories;
+using App.Modules.Base.Infrastructure.Services;
+using App.Modules.Base.Infrastructure.Storage.Db.EF.DbContexts.Implementations.Base;
+using App.Modules.Base.Infrastructure.Storage.Db.EF.Schema.Management;
+using App.Modules.Base.Shared.Constants;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 
 
-namespace App.Modules.Sys.Infrastructure.Data.Storage.Db.EF.DbContexts.Implementations
+namespace App.Modules.Base.Infrastructure.Data.Storage.Db.EF.DbContexts.Implementations
 {
     /// <summary>
     /// The Module specific DbContext (notice is has it's own Schema).

@@ -35,8 +35,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\BASE.LIB\SOURCE\App.Modules.Sys.Substrate.Contracts\App.Modules.Sys.Substrate.Contracts.csproj" />
-    <ProjectReference Include="..\..\..\BASE.LIB\SOURCE\App.Modules.Sys.Substrate\App.Modules.Sys.Substrate.csproj" />
+    <ProjectReference Include="..\..\..\BASE.Modules.Base\SOURCE\App.Modules.Base.Substrate.Contracts\App.Modules.Base.Substrate.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\BASE.Modules.Base\SOURCE\App.Modules.Base.Substrate\App.Modules.Base.Substrate.csproj" />
   </ItemGroup>
 
 

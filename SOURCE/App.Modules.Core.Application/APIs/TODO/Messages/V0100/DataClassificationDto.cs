@@ -1,8 +1,8 @@
 ﻿namespace App.Modules.TmpSys.Application.APIs.TODO.Messages.V0100
 {
     using System;
-    using App.Modules.Sys.Shared.Models.TODO.Entities;
-    using App.Modules.Sys.Shared.Models.TODO.Entities.Enums;
+    using App.Modules.Base.Shared.Models.TODO.Entities;
+    using App.Modules.Base.Shared.Models.TODO.Entities.Enums;
 
     /// <summary>
     /// API DTO for system 

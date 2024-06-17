@@ -1,5 +1,5 @@
 ﻿using App.Base.Shared.Factories;
-using App.Modules.Sys.Substrate.Models.Contracts;
+using App.Modules.Base.Substrate.Models.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;

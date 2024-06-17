@@ -1,9 +1,9 @@
 ﻿namespace App.Modules.TmpSys.Application.APIs.TODO.Messages.V0100
 {
     using System;
-    using App.Modules.Sys.Substrate.Models.Contracts;
+    using App.Modules.Base.Substrate.Models.Contracts;
     using App.Base.Shared.Models.Enums;
-    using App.Modules.Sys.Shared.Models.TODO.Entities;
+    using App.Modules.Base.Shared.Models.TODO.Entities;
 
     /// <summary>
     /// DTO for <see cref="TenantClaim"/>

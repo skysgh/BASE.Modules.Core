@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.Modules.Sys.Interface.Models._TOPARSE.V0100
+namespace App.Modules.Base.Interface.Models._TOPARSE.V0100
 {
     /// <summary>
     /// DTO of a User Profile.

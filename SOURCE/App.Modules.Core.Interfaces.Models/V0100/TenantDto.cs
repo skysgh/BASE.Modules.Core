@@ -1,7 +1,7 @@
-﻿namespace App.Modules.Sys.Interface.Models._TOPARSE.V0100
+﻿namespace App.Modules.Base.Interface.Models._TOPARSE.V0100
 {
-    using App.Modules.Sys.Substrate.Models.Contracts;
-    using App.Modules.Sys.Substrate.tmp.Models.Messages._TOREVIEW.Entities;
+    using App.Modules.Base.Substrate.Models.Contracts;
+    using App.Modules.Base.Substrate.tmp.Models.Messages._TOREVIEW.Entities;
     using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
