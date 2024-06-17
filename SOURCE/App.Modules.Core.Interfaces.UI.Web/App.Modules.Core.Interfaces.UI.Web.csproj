@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	
+	
+	  <PropertyGroup>
+	  <TargetFramework>net8.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Title>$(AssemblyName)</Title>
+	  <Copyright>Copyright $(Authors)</Copyright>
+	  <PackageReadmeFile>readme.md</PackageReadmeFile>
+	  <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+	  <AnalysisLevel>preview-recommended</AnalysisLevel>
+	  <EnableNETAnalyzers>True</EnableNETAnalyzers>
+	  <Company>MachineBrains, Inc.</Company>
+	  <Product>BASE</Product>
+	  <!--<BaseOutputPath>..\..\..\..\SOURCE\App.Service.Host\MODULES\</BaseOutputPath>-->
+  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>$(AssemblyName)</Title>
+		<Copyright>Copyright $(Authors)</Copyright>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+		<AnalysisLevel>preview-recommended</AnalysisLevel>
+		<EnableNETAnalyzers>True</EnableNETAnalyzers>
+		<Company>MachineBrains, Inc.</Company>
+		<Product>BASE</Product>
+		<!--<BaseOutputPath>..\..\..\..\SOURCE\App.Service.Host\MODULES\</BaseOutputPath>-->
+	</PropertyGroup>
+
+
+	
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Apis\Rest\Controllers\Implementations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BASE\SOURCE\App.Modules.Sys.Interfaces.UI.Web\App.Modules.Sys.Interfaces.UI.Web.csproj" />
+	  <ProjectReference Include="..\App.Modules.Core.Interfaces.Models\App.Modules.Core.Interfaces.Models.csproj" />
+	  <ProjectReference Include="..\App.Modules.Core.Application\App.Modules.Core.Application.csproj" />
+  </ItemGroup>
+
+</Project>

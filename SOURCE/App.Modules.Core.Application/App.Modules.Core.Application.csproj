@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>net8.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Title>$(AssemblyName)</Title>
+	  <Copyright>Copyright $(Authors)</Copyright>
+	  <PackageReadmeFile>readme.md</PackageReadmeFile>
+	  <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+	  <AnalysisLevel>preview-recommended</AnalysisLevel>
+	  <EnableNETAnalyzers>True</EnableNETAnalyzers>
+	  <Company>MachineBrains, Inc.</Company>
+	  <Product>BASE</Product>
+	  <!--<BaseOutputPath>..\..\..\..\SOURCE\App.Service.Host\MODULES\</BaseOutputPath>-->
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <WarningLevel>9999</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <WarningLevel>9999</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <ProjectReference Include="..\..\..\BASE.LIB\SOURCE\App.Modules.CoreSys.Application\App.Modules.CoreSys.Application.csproj" />
+	  <ProjectReference Include="..\..\..\BASE.LIB\SOURCE\App.Modules.CoreSys.Domain\App.Modules.CoreSys.Domain.csproj" />
+	  <ProjectReference Include="..\..\..\BASE.LIB\SOURCE\App.Modules.CoreSys.Infrastructure\App.Modules.CoreSys.Infrastructure.csproj" />
+	  <ProjectReference Include="..\..\..\BASE.LIB\SOURCE\App.Modules.CoreSys.Substrate.Contracts\App.Modules.CoreSys.Substrate.Contracts.csproj" />
+	  <ProjectReference Include="..\App.Modules.Core.Infrastructure.Data.Storage.Db.EF\App.Modules.Core.Infrastructure.Data.Storage.Db.EF.csproj" />
+	  <ProjectReference Include="..\App.Modules.Core.Infrastructure\App.Modules.Core.Infrastructure.csproj" />
+	  <ProjectReference Include="..\App.Modules.Core.Interfaces.Models\App.Modules.Core.Interfaces.Models.csproj" />
+	  <ProjectReference Include="..\App.Modules.Core.Substrate\App.Modules.Core.Substrate.csproj" />
+  </ItemGroup>
+
+</Project>
